@@ -13,5 +13,6 @@ class Farm
     {
       System.out.println(aBunchOfAnimals[i].getType() + " goes " + aBunchOfAnimals[i].getSound());
     }
+    System.out.println( "The cow is known as " + ((NamedCow)aBunchOfAnimals[0]).getName());
   }
 }
